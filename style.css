@@ -1,0 +1,94 @@
+:root {
+  --green: #10ff95;
+  --dark: #111;
+  --light: #eee;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+header {
+  background: linear-gradient(135deg, #000, #222);
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: var(--green);
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background-color: var(--green);
+  color: #000;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #0be68a;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem 1rem;
+}
+
+.product {
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 280px;
+  box-shadow: 0 0 20px rgba(16, 255, 149, 0.1);
+  text-align: center;
+}
+
+.product h2 {
+  color: var(--green);
+  margin-bottom: 0.5rem;
+}
+
+.product span {
+  display: block;
+  font-weight: bold;
+  margin: 1rem 0;
+  color: var(--light);
+}
+
+.buy-button {
+  background-color: var(--green);
+  color: #000;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: #0be68a;
+}
+
+footer {
+  background-color: #000;
+  color: #888;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
